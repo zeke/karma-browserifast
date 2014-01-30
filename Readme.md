@@ -104,7 +104,7 @@ Adds sourcemaps to your Browserify bundle.
 
 When you move files from Karma's list of files to the browserify list, you also
 opt out of Karma's watching feature. Don't worry, karma-browserifast has your
-back. It tells Karma to watch its watch its bundle, and updates this whenever
+back. It tells Karma to watch its bundle, and updates this whenever
 your files change. The Karma `autoWatch` configuration option, as well as
 individual files configurations (e.g. `watch: true|false`), are respected. If
 `autoWatch` is `true`, dependencies resolved by browserify will be watched in

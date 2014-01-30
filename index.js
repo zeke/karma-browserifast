@@ -100,7 +100,7 @@ function karmaBrowserifast() {
 
         var tmpFile = writeBundleFile();
 
-        config.files.unshift({
+        config.files.push({
             pattern: tmpFile,
             served: true,
             included: true,

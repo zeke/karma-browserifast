@@ -58,7 +58,7 @@ buster.testCase("karma-browserifast", {
             assert.match(this.writeFileSync.args[0][0], /\.browserify$/);
         },
 
-        "prepends file to config.files": function () {
+        "appends file to config.files": function () {
             var files = ["hei"];
             this.plugin.framework({
                 files: files,
@@ -68,7 +68,7 @@ buster.testCase("karma-browserifast", {
             }, this.logger);
 
             assert.equals(files.length, 2);
-            assert.isObject(files[0]);
+            assert.isObject(files[1]);
         }
     },
 

@@ -1,0 +1,34 @@
+{
+    "name": "karma-browserifast",
+    "description": "Fast browserify for Karma",
+    "keywords": [
+        "karma-plugin",
+        "browserify"
+    ],
+    "version": "0.1.0",
+    "authors": [{
+        "name": "Jostein Holje",
+        "email": "jostein.holje@gmail.com",
+        "url": "http://github.com/jstnhlj"
+    }, {
+        "name": "Christian Johansen",
+        "email": "christian@cjohansen.no",
+        "url": "http://cjohansen.no"
+    }],
+    "scripts": {
+        "test": "node run-tests.js"
+    },
+    "main": "./index.js",
+    "license": "BSD",
+    "dependencies": {
+        "browserify": "~3.24",
+        "glob": "~3.2",
+        "chokidar": "~0.8"
+    },
+    "devDependencies": {
+        "buster-node": "~0.7"
+    },
+    "peerDependencies": {
+        "karma": ">=0.9"
+    }
+}

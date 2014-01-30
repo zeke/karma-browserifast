@@ -1,0 +1,1 @@
+// This is a module to test browserifastication

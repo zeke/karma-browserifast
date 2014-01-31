@@ -1,7 +1,7 @@
 # karma-browserifast
 
 [Browserify](http://browserify.org/) your JavaScript on the fly when testing
-with [Karma](karma-runner.github.io).
+with [Karma](http://karma-runner.github.io).
 
 ## Installation
 
